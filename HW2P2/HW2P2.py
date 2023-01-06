@@ -34,7 +34,7 @@ As you go, please read the code and keep an eye out for TODOs!
 !mkdir /root/.kaggle
 
 with open("/root/.kaggle/kaggle.json", "w+") as f:
-    f.write('{"username":"cmukoala","key":"7973bf338799549c18d04fcf2cebd158"}') # Put your kaggle username & key here
+    f.write('{"username":"cmukoala","key":"mykey"}') # Put your kaggle username & key here
 
 !chmod 600 /root/.kaggle/kaggle.json
 
